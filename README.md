@@ -2,7 +2,7 @@
 
 # 🚀 Instachecker
 
-This Python and Flask-based web app helps you determine whether an email address is linked to an Instagram account. It's perfect for OSINT (Open Source Intelligence) surveys and much more! 🕵️‍♂️
+This Python and Flask-based web app helps you determine whether an email address is linked to an Instagram account. It's perfect for OSINT (Open Source Intelligence) surveys and much more! 🕵️‍♂️ 
 
 ## ✨ Features
 
@@ -32,6 +32,8 @@ This tool is an asset for OSINT professionals, researchers and cybersecurity ent
 - Start the Flask application : ```python3 app.py``` (for web interface) or ```python3 cli.py``` (for CLI interface)
 
 - Access the tool: ```Go to http://127.0.0.1:5000``` (Only for web version)
+
+#### The CLI version may sometimes give false positives (or false negatives), so try the web and CLI versions just in case.
 
 # 🐳 Examples of use
 
