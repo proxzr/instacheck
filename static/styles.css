@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    overflow: hidden;
+    margin: 0;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 470px;
+    position: absolute;
+    top: -90px;
+    right: 10px;
+    margin-bottom: 30px;
+  }
+  
+  
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #ff0077;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e60068;
+}
+
+.title {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.button_result {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+}
+
+.status {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

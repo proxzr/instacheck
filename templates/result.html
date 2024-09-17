@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instachecker</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="content">
+    <h1 class="title">Result for {{ email }} 📨</h1>
+    <p class="status">{% if exists %}This email is associated with an Instagram account ! 🚀{% else %}This email is not associated with an Instagram account! 😳{% endif %}</p>
+    <button class="button_result" onclick="window.history.back()">Make a new search</button>
+
+
+
+    <p id="result"></p>
+  </div>
+
+  
+  
+</body>
+</html>

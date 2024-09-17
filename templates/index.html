@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instachecker</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="content">
+    <img src="/static/insta_checker.png" alt="Logo" class="logo">
+    <h1 class="title">Enter an email ! 📨</h1>
+    <form action="/check_email" method="POST">
+      <div class="form-group">
+          <input type="email" name="email" class="input-email" placeholder="Enter email" required>
+          <button type="submit" class="submit-btn">Check</button>
+      </div>
+  </form>
+    <p id="result"></p>
+  </div>
+
+
+  
+  
+</body>
+</html>
